@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/loginback.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            color: white; 
+            overflow: hidden;
+}
+
+form{
+    width: 70%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /*border: 1px solid red;*/
+}
+
+h1{
+    text-align: center;
+    margin-top: 10%;
+}
+
+div{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    /*border: 1px solid; /*border*/
+    width: 40%;
+    height: 50%;
+}
+
+label{
+    font-size: large;
+}
+
+#email, #password{
+    height: 12%;
+    font-size: medium;
+}
+
+#but{
+    height: 20%;
+    margin-top: 2%;
+}
+
+#but:hover{
+    color: white;
+    background-color: red;
+}
+
+a{
+    color: red;
+}
+
+p{
+    text-align: center;
+}

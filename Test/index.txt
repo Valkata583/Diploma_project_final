@@ -1,0 +1,218 @@
+body{
+  /*width: 100%;
+  height: 100%;*/
+  overflow-x: hidden;
+}
+
+/*Left menu*/
+#left_menu {
+  width: 13%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid;
+}
+
+.but {
+  width: 42%;
+  height: 10%;
+  margin: auto;
+}
+
+#logoutbutton {
+  width: 4vw;
+  height: 6vh;
+  background-color: red;
+  color: aliceblue;
+  margin-top: 1%;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.username {
+  font-size: 2vw;
+}
+
+footer {
+  color: white;
+  background-color: grey;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  margin-top: 2%;
+}
+
+#div_right{
+  width: 100%;
+  border: 1px solid;
+}
+
+/*Choose car*/
+#car_choose {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#car_choose > button {
+  flex-basis: 200px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  background: linear-gradient(30deg, #1A2980, #26D0CE);
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  transition: 0.3s ease; /* Transition background color */
+}     
+
+#car_choose > button:hover {
+  background: linear-gradient(30deg, rgb(48, 65, 167), #0c8b89);
+}
+
+
+
+/*Add car*/
+#car_add{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  border: 1px solid;
+}
+
+
+#car_add_but{
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: small;
+}
+
+#add_car{
+  margin-left: 94.2vw;
+  /*height: 7vh; */
+  width: 4vw;
+  height: 6vh;
+}
+
+.addLabel{
+  font-size: large;
+}
+
+.addInput, select{
+  font-size: medium;
+}
+
+/*Close button*/
+.close{
+  /* margin-left: 42.1vw; */
+  margin-left: auto;
+  width: 1.2vw;
+   
+}
+
+.close:hover{
+  color: aliceblue;
+  background-color: red;
+}
+
+/*Static data form*/
+#carInfoForm{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#carInfoForm label{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#consumesForm{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Repair Shop Info*/
+#repairShopsInfo{
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* border: 1px solid; */
+  width: 50%;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+/*Add repair shop button*/
+#addRepairShopBut{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Add repair shop form*/
+#addRepairShops{
+  display: flex;
+  flex-direction: column;
+}
+
+/*Add repair form*/
+#addRepairs{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Repairs info*/
+#repairsInfo{
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* border: 1px solid; */
+  width: 50%;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+/*Add consumes form*/
+#addConsumes{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Consumes Info*/
+#consInfo{
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* border: 1px solid; */
+  width: 50%;
+  height: 500px;
+  overflow-y: scroll;
+}
